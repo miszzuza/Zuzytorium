@@ -23,9 +23,7 @@ int main(){
             printf("Enter element a%d%d: ",i+1, j+1);
             scanf("%d", &b[i][j]);
         }
-
     // Adding Two matrices
-
     for(i=0;i<r;++i)
         for(j=0;j<c;++j)
         {
