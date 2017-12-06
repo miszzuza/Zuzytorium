@@ -2,7 +2,7 @@
 #include <math.h>
 
 int convertBinarytoOctal(long long binaryNumber);
-int main()
+int main(void)//funkcja main nie przyjmuje argumentów
 {
     long long binaryNumber;
 
