@@ -8,7 +8,7 @@ int main()
 
     // Storing elements of the matrix
     printf("\nEnter elements of matrix:\n");
-    for(i=0; i<r; ++i)
+    for(i=0; i<r; i++) //postinclementation seems nicer
         for(j=0; j<c; ++j)
         {
             printf("Enter element a%d%d: ",i+1, j+1);
