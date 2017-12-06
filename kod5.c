@@ -73,7 +73,6 @@ void multiplyMatrices(int firstMatrix[][10], int secondMatrix[][10], int mult[][
 		}
 	}
 
-	// Multiplying matrix firstMatrix and secondMatrix and storing in array mult.
 	for(i = 0; i < rowFirst; ++i)
 	{
 		for(j = 0; j < columnSecond; ++j)
