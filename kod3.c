@@ -31,7 +31,7 @@ int main()
 
     // Storing elements of second matrix.
     printf("\nEnter elements of matrix 2:\n");
-    for(i=0; i<r2; ++i)
+    for(i=0; i<r2; ++i) //WHY IN ALL THOSE FOR LOOPS THERE ARE "{" "}" MISSING??????
         for(j=0; j<c2; ++j)
         {
             printf("Enter elements b%d%d: ",i+1, j+1);
