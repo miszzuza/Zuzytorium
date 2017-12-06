@@ -29,3 +29,6 @@ void cyclicSwap(int *a,int *b,int *c)
     *a = *c;
     *c = temp;
 }
+void nothing(void){
+	int nothing=0;
+}
