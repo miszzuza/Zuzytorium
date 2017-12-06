@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
+    int a[5+5][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;//because 5+5 =10
 
     printf("Enter rows and column for first matrix: ");
     scanf("%d %d", &r1, &c1);

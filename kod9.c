@@ -23,7 +23,7 @@ int main()
             }
         }
 
-    printf("\nIn lexicographical order: \n");//whatever lexicographical means
+    printf("\nIn lexicographical order: \n\n");//whatever lexicographical means
     for(i=0; i<10; ++i)
     {
         puts(str[i]);
