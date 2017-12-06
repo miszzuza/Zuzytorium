@@ -24,8 +24,8 @@ int main()
 
         printf("Enter marks: ");
         scanf("%f",&s[i].marks);
-
-        printf("\n");
+		
+        printf("\nInformations stored\n");
     }
 
     printf("Displaying Information:\n\n");
