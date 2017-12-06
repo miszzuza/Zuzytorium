@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i, num;
+    int i, num, *k;
     float *data;
 
     printf("Enter total number of elements(1 to 100): ");

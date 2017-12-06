@@ -65,10 +65,8 @@ void multiplyMatrices(int firstMatrix[][10], int secondMatrix[][10], int mult[][
 	int i, j, k;
 
 	// Initializing elements of matrix mult to 0.
-	for(i = 0; i < rowFirst; ++i)
-	{
-		for(j = 0; j < columnSecond; ++j)
-		{
+	for(i = 0; i < rowFirst; ++i){
+		for(j = 0; j < columnSecond; ++j){
 			mult[i][j] = 0;
 		}
 	}
@@ -84,15 +82,11 @@ void multiplyMatrices(int firstMatrix[][10], int secondMatrix[][10], int mult[][
 		}
 	}
 }
-
-void display(int mult[][10], int rowFirst, int columnSecond)
-{
+void display(int mult[][10], int rowFirst, int columnSecond){
 	int i, j;
 	printf("\nOutput Matrix:\n");
-	for(i = 0; i < rowFirst; ++i)
-	{
-		for(j = 0; j < columnSecond; ++j)
-		{
+	for(i = 0; i < rowFirst; ++i){
+		for(j = 0; j < columnSecond; ++j){
 			printf("%d  ", mult[i][j]);
 			if(j == columnSecond - 1)
 				printf("\n\n");

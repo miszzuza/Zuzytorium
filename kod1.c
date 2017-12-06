@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
+
+
+
+
+
+
+
 int convertBinarytoOctal(long long binaryNumber);
 int main(void)//funkcja main nie przyjmuje argumentów
 {

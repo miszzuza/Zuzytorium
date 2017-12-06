@@ -15,7 +15,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
 
-    // Displaying the matrix a[][] */
+    // Displaying the matrix a[][]
     printf("\nEntered Matrix: \n");
     for(i=0; i<r; ++i)
         for(j=0; j<c; ++j)
